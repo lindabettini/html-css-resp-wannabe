@@ -1,4 +1,10 @@
 @media screen and (max-width: 419px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
   .row {
     width: 100vw;
     display: flex;
@@ -7,7 +13,7 @@
     align-content: center;
     margin-top: 0;
     font-size: 1.1em;
-    padding: 0 10px;
+    padding: 10px 10px 0 10px;
     background-color: lightgoldenrodyellow;
   }
 
@@ -28,9 +34,18 @@
     background-color: #f9f9f9;
   }
 
-  img,
+  img {
+    max-width: 40vw;
+    height: auto;
+  }
+
+  #steps .row img {
+    width: 30vw;
+    height: auto;
+  }
+
   #why .row img {
-    max-width: 70vw;
+    max-width: 20vw;
     height: auto;
   }
 }
