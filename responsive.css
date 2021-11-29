@@ -21,10 +21,10 @@
   #why .row > .third {
     float: none;
     width: 100vw;
-    margin-top: 20px;
+    margin: 20px 0;
   }
 
-  #steps .container.grey .row {
+  #steps.container.grey .row {
     background-color: #f9f9f9;
   }
 
