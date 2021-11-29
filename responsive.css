@@ -1,6 +1,22 @@
 @media screen and (max-width: 419px) {
-  #lezioni .left,
-  .right {
+  .row {
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-top: 0;
+    background-color: lightgoldenrodyellow;
+    font-size: 2em;
+    padding: 0 10px;
+  }
+
+  #steps .row > .left,
+  #steps .row > .right,
+  #steps .row > .central,
+  #lezioni .row > .left,
+  #lezioni .row > .right {
     float: none;
+    width: 100%;
   }
 }
