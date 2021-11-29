@@ -1,22 +1,36 @@
 @media screen and (max-width: 419px) {
   .row {
-    width: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: center;
     margin-top: 0;
-    background-color: lightgoldenrodyellow;
-    font-size: 2em;
+    font-size: 1.1em;
     padding: 0 10px;
+    background-color: lightgoldenrodyellow;
   }
 
   #steps .row > .left,
   #steps .row > .right,
   #steps .row > .central,
   #lezioni .row > .left,
-  #lezioni .row > .right {
+  #lezioni .row > .right,
+  #why .row > .first,
+  #why .row > .second,
+  #why .row > .third {
     float: none;
-    width: 100%;
+    width: 100vw;
+    margin-top: 20px;
+  }
+
+  #steps .container.grey .row {
+    background-color: #f9f9f9;
+  }
+
+  img,
+  #why .row img {
+    max-width: 70vw;
+    height: auto;
   }
 }
